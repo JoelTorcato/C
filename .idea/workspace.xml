@@ -12,7 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="new commit" />
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise 6.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,37 +64,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.NEW LIBRARY.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise 4.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise five.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise four.c.executor&quot;: &quot;Debug&quot;,
-    &quot;C/C++ File.exercise one.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise three.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise two.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.first array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.second array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.thrid.c.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;2024&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JoelFernandes/Downloads/2º PIS/PROGRAMAÇÃO/CLION/NOVEMBER/19 NOV/exercise 4.c&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.NEW LIBRARY.c.executor": "Run",
+    "C/C++ File.array.c.executor": "Run",
+    "C/C++ File.exercise 4.c.executor": "Run",
+    "C/C++ File.exercise 6.c.executor": "Run",
+    "C/C++ File.exercise five.c.executor": "Run",
+    "C/C++ File.exercise four.c.executor": "Debug",
+    "C/C++ File.exercise one.c.executor": "Run",
+    "C/C++ File.exercise three.c.executor": "Run",
+    "C/C++ File.exercise two.c.executor": "Run",
+    "C/C++ File.first array.c.executor": "Run",
+    "C/C++ File.second array.c.executor": "Run",
+    "C/C++ File.thrid.c.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "2024",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/JoelFernandes/Downloads/2º PIS/PROGRAMAÇÃO/CLION/NOVEMBER/19 NOV/exercise 6.c",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\ARRAY" />
@@ -105,7 +109,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="C/C++ File.exercise 4.c">
+  <component name="RunManager" selected="C/C++ File.exercise 6.c">
     <configuration name="All Tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -114,6 +118,12 @@
     </configuration>
     <configuration name="exercise 4.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise 4.c" CONFIG_NAME="exercise 4.c">
       <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\NOVEMBER\19 NOV\exercise 4.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise 6.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise 6.c" CONFIG_NAME="exercise 6.c">
+      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\NOVEMBER\19 NOV\exercise 6.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -151,6 +161,7 @@
     <list>
       <item itemvalue="C/C++ File.exercise five.c" />
       <item itemvalue="C/C++ File.exercise 4.c" />
+      <item itemvalue="C/C++ File.exercise 6.c" />
       <item itemvalue="C/C++ File.exercise four.c" />
       <item itemvalue="C/C++ File.exercise one.c" />
       <item itemvalue="C/C++ File.exercise three.c" />
@@ -186,7 +197,8 @@
       <workItem from="1731409479072" duration="2112000" />
       <workItem from="1732018084788" duration="107000" />
       <workItem from="1732019205513" duration="1029000" />
-      <workItem from="1732027611869" duration="1067000" />
+      <workItem from="1732027611869" duration="1163000" />
+      <workItem from="1732097904903" duration="1671000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -204,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731409297027</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1732028715043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732028715043</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
