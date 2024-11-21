@@ -3,6 +3,13 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+  </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -13,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="new commit">
-      <change afterPath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise 6.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise 6.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise 6.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +58,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise five.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise two.c" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -78,14 +86,16 @@
     "C/C++ File.first array.c.executor": "Run",
     "C/C++ File.second array.c.executor": "Run",
     "C/C++ File.thrid.c.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "2024",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/JoelFernandes/Downloads/2º PIS/PROGRAMAÇÃO/CLION/NOVEMBER/19 NOV/exercise 6.c",
+    "last_opened_file_path": "C:/Users/Utilizador/Documents/CLION/NOVEMBER/19 NOV/exercise 6.c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,56 +126,14 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise 4.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise 4.c" CONFIG_NAME="exercise 4.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\NOVEMBER\19 NOV\exercise 4.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="exercise 6.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise 6.c" CONFIG_NAME="exercise 6.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\NOVEMBER\19 NOV\exercise 6.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercise five.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise five.c" CONFIG_NAME="exercise five.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\OCTOBER\14 OCT\EXERCISES\exercise five.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercise four.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise four.c" CONFIG_NAME="exercise four.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\OCTOBER\14 OCT\EXERCISES\exercise four.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercise one.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise one.c" CONFIG_NAME="exercise one.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\OCTOBER\14 OCT\EXERCISES\exercise one.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercise three.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise three.c" CONFIG_NAME="exercise three.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\OCTOBER\14 OCT\EXERCISES\exercise three.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercise two.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="exercise two.c" CONFIG_NAME="exercise two.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\2º PIS\PROGRAMAÇÃO\CLION\OCTOBER\14 OCT\EXERCISES\exercise two.c" />
+      <option name="sourceFile" value="C:\Users\Utilizador\Documents\CLION\NOVEMBER\19 NOV\exercise 6.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.exercise five.c" />
-      <item itemvalue="C/C++ File.exercise 4.c" />
       <item itemvalue="C/C++ File.exercise 6.c" />
-      <item itemvalue="C/C++ File.exercise four.c" />
-      <item itemvalue="C/C++ File.exercise one.c" />
-      <item itemvalue="C/C++ File.exercise three.c" />
-      <item itemvalue="C/C++ File.exercise two.c" />
       <item itemvalue="Catch.All Tests" />
     </list>
   </component>
@@ -199,6 +167,7 @@
       <workItem from="1732019205513" duration="1029000" />
       <workItem from="1732027611869" duration="1163000" />
       <workItem from="1732097904903" duration="1671000" />
+      <workItem from="1732191374372" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />

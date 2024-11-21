@@ -42,6 +42,17 @@ int main() {
 
         printf("o total de golos marcados por todos os jogadores em todos os jogos e: %d\n", total);
 
+        int max_golos;
+
+        max_golos = golos[1];
+
+        for (int i = 0; i < 5; i++) { // i é o índice da linha
+            for (int j = 0; j < 3; j++) { // j é o índice da coluna
+                if (golos[i][j] > max_golos) max_golos = golos[i][j];
+            }
+        }
+        printf("o maximo de golos foi: %d", max_golos);
+
 
         return 0;
     }
