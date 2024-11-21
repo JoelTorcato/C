@@ -50,12 +50,12 @@
     &quot;assignee&quot;: &quot;joeltorcato&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/joeltorcato/CLION.git&quot;,
-    &quot;accountId&quot;: &quot;3c084b6b-be58-4ad3-a632-e66da22723d7&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/joeltorcato/CLION.git",
+    "accountId": "91945fef-d8b9-402a-8ca8-5f85043d03af"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise five.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise two.c" root0="FORCE_HIGHLIGHTING" />
@@ -167,7 +167,7 @@
       <workItem from="1732019205513" duration="1029000" />
       <workItem from="1732027611869" duration="1163000" />
       <workItem from="1732097904903" duration="1671000" />
-      <workItem from="1732191374372" duration="1162000" />
+      <workItem from="1732191374372" duration="4282000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -193,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732028715043</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1732193817642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732193817642</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

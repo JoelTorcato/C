@@ -10,6 +10,10 @@ int main() {
             {1, 0, 1},
             {0, 4, 2}
     };
+    int media;
+    int max_golos;
+    int jogador, jogo;
+    int total = 0;
 
     printf("numero de golos marcados pelos jogadores: \n");
     for (int i = 0; i < 5; i++) { // i é o índice da linha
@@ -20,8 +24,6 @@ int main() {
     }
 
 
-    int jogador, jogo;
-
     printf("introduza o numero do jogador (0-4): ");
     scanf("%d", &jogador);
 
@@ -29,10 +31,8 @@ int main() {
     scanf("%d", &jogo);
 
     if (jogador >= 0 && jogador < 5 && jogo >= 0 && jogo < 3) {
-        printf("o jogador %d marcou %d golos no jogo %d.\n", jogador, golos[jogador][jogo], jogo);
+        printf("o jogador %d marcou %d golos no jogo %d \n", jogador, golos[jogador][jogo], jogo);
 
-
-        int total = 0;
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 3; j++) {
@@ -42,18 +42,27 @@ int main() {
 
         printf("o total de golos marcados por todos os jogadores em todos os jogos e: %d\n", total);
 
-        int max_golos;
+
 
         max_golos = golos[1];
 
-        for (int i = 0; i < 5; i++) { // i é o índice da linha
-            for (int j = 0; j < 3; j++) { // j é o índice da coluna
+        for (int i = 0; i < 5; i++) {
+            // i é o índice da linha
+            for (int j = 0; j < 3; j++) {
+                // j é o índice da coluna
                 if (golos[i][j] > max_golos) max_golos = golos[i][j];
             }
         }
-        printf("o maximo de golos foi: %d", max_golos);
+        printf("o maximo de golos foi: %d\n", max_golos);
 
+
+        int media;
+        media =  total/ 15;
+        printf("media de golos marcados por jogo e: %d\n", media);
+
+
+
+        }
 
         return 0;
-    }
 }
