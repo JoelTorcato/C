@@ -8,7 +8,7 @@
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
   </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I started doing exercise seven">
+      <change afterPath="$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" afterDir="false" />
     </list>
@@ -57,60 +58,66 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise six.c" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise five.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise two.c" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2mTkU6y06C07zGo90bTZDiuGeYX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.NEW LIBRARY.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.example.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise 4.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise 6.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise five.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise four.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise one.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise seven.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise six.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise three.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise two.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.first array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.second array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.thrid.c.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;2024&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utilizador/Documents/CLION/OCTOBER/14 OCT/EXERCISES/example.c&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.NEW LIBRARY.c.executor": "Run",
+    "C/C++ File.array.c.executor": "Run",
+    "C/C++ File.example.c.executor": "Run",
+    "C/C++ File.exercise 4.c.executor": "Run",
+    "C/C++ File.exercise 6.c.executor": "Run",
+    "C/C++ File.exercise five.c.executor": "Run",
+    "C/C++ File.exercise four.c.executor": "Run",
+    "C/C++ File.exercise one.c.executor": "Run",
+    "C/C++ File.exercise seven.c.executor": "Run",
+    "C/C++ File.exercise six.c.executor": "Run",
+    "C/C++ File.exercise three.c.executor": "Run",
+    "C/C++ File.exercise two.c.executor": "Run",
+    "C/C++ File.final project.c (1).executor": "Run",
+    "C/C++ File.final project.c.executor": "Run",
+    "C/C++ File.first array.c.executor": "Run",
+    "C/C++ File.second array.c.executor": "Run",
+    "C/C++ File.thrid.c.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "2024",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Utilizador/Documents/CLION/NOVEMBER/22 NOV/final project.c",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\ARRAY" />
@@ -124,7 +131,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="C/C++ File.exercise seven.c">
+  <component name="RunManager" selected="C/C++ File.final project.c">
     <configuration name="All Tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -155,10 +162,17 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="final project.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="final project.c" CONFIG_NAME="final project.c">
+      <option name="sourceFile" value="C:\Users\Utilizador\Documents\CLION\NOVEMBER\22 NOV\final project.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="C/C++ File.exercise six.c" />
       <item itemvalue="C/C++ File.exercise four.c" />
       <item itemvalue="C/C++ File.exercise seven.c" />
+      <item itemvalue="C/C++ File.final project.c" />
       <item itemvalue="C/C++ File.example.c" />
       <item itemvalue="Catch.All Tests" />
     </list>
@@ -197,6 +211,7 @@
       <workItem from="1732201024473" duration="11956000" />
       <workItem from="1732260834534" duration="618000" />
       <workItem from="1732262140635" duration="4724000" />
+      <workItem from="1732274580422" duration="7581000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
