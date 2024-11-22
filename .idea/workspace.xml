@@ -8,7 +8,7 @@
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
   </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
@@ -19,10 +19,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I started doing exercise seven">
-      <change afterPath="$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" afterDir="false" />
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I started to do the final project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,45 +78,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.NEW LIBRARY.c.executor": "Run",
-    "C/C++ File.array.c.executor": "Run",
-    "C/C++ File.example.c.executor": "Run",
-    "C/C++ File.exercise 4.c.executor": "Run",
-    "C/C++ File.exercise 6.c.executor": "Run",
-    "C/C++ File.exercise five.c.executor": "Run",
-    "C/C++ File.exercise four.c.executor": "Run",
-    "C/C++ File.exercise one.c.executor": "Run",
-    "C/C++ File.exercise seven.c.executor": "Run",
-    "C/C++ File.exercise six.c.executor": "Run",
-    "C/C++ File.exercise three.c.executor": "Run",
-    "C/C++ File.exercise two.c.executor": "Run",
-    "C/C++ File.final project.c (1).executor": "Run",
-    "C/C++ File.final project.c.executor": "Run",
-    "C/C++ File.first array.c.executor": "Run",
-    "C/C++ File.second array.c.executor": "Run",
-    "C/C++ File.thrid.c.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "2024",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Utilizador/Documents/CLION/NOVEMBER/22 NOV/final project.c",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.qodana",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.NEW LIBRARY.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.array.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.example.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise 4.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise 6.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise five.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise four.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise one.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise seven.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise six.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise three.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.exercise two.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.final project.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.final project.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.first array.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.second array.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.thrid.c.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;2024&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utilizador/Documents/CLION/NOVEMBER/22 NOV/final project.c&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\ARRAY" />
@@ -211,7 +210,8 @@
       <workItem from="1732201024473" duration="11956000" />
       <workItem from="1732260834534" duration="618000" />
       <workItem from="1732262140635" duration="4724000" />
-      <workItem from="1732274580422" duration="7581000" />
+      <workItem from="1732274580422" duration="7834000" />
+      <workItem from="1732290716525" duration="4777000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -269,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732223955710</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I started to do the final project">
+      <option name="closed" value="true" />
+      <created>1732285261415</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732285261415</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +317,8 @@
     <MESSAGE value="exercise 6.c &#10;fazer o e), f), g)" />
     <MESSAGE value="I just did exercise four and six, today is the twenty-first of November." />
     <MESSAGE value="I started doing exercise seven" />
-    <option name="LAST_COMMIT_MESSAGE" value="I started doing exercise seven" />
+    <MESSAGE value="I started to do the final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="I started to do the final project" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
