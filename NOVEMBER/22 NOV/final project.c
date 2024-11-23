@@ -21,7 +21,7 @@ int main() {
     };
     int viagensDia[6] = {0};
 
-    // escreverNumeroViagens(diasSemana, viagensDia);
+    escreverNumeroViagens(diasSemana, viagensDia);
 
     int opcao;
     char resp;
@@ -34,6 +34,8 @@ int main() {
         printf("\n4. Mostrar a média de viagens por semana");
         printf("\n5. Mostrar a média de viagens por fim de semana");
         printf("\n6. Mostrar o dia(s) da semana que houve 0 viagens");
+        printf("\n7. Mostrar o dia(s) da semana que houve o máximo de viagens (250)");
+        // Pedir mais ideias ao professor e aos colegas
 
         printf("\nOpção: ");
         scanf("%d", &opcao);
@@ -87,15 +89,26 @@ int main() {
             }
             mediaFimDeSemana = totalFimDeSemana / 2;
             printf("A média de viagens por fim de semana é de: %.2f", mediaFimDeSemana);
-        } else if (opcao == 6)
+        } else if (opcao == 6) {
             for (int i = 0; i < 7; i++) {
                 if (viagensDia[i] == 0);
             }
-        printf("O(s) dia(s) da semana que houve 0 viagens foi: ");
+            printf("O(s) dia(s) da semana que houve 0 viagens foi: ");
 
-        for (int i = 0; i < 7; i++) {
-            if (viagensDia[i] == 0)
-                printf("%s ", diasSemana[i]);
+            for (int i = 0; i < 7; i++) {
+                if (viagensDia[i] == 0)
+                    printf("%s ", diasSemana[i]);
+            }
+        } else if (opcao == 7) {
+            for (int i = 0; i < 7; i++) {
+                if (viagensDia[i] == 250);
+            }
+            printf("O(s) dia(s) da semana que houve o máximo de viagens foi: ");
+
+            for (int i = 0; i < 7; i++) {
+                if (viagensDia[i] == 250)
+                    printf("%s ", diasSemana[i]);
+            }
         }
 
         printf("\nQuer ver outra opção? (S/N): ");
@@ -109,3 +122,5 @@ int main() {
 
     return 0;
 }
+
+// Perguntar ao professor se posso fazer sobre outro 'tópico'
