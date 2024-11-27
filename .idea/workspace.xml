@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I started but didn't finish doing exercise two (I'm very tired).">
+      <change afterPath="$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise four.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise two.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise two.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/joeltorcato/CLION.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/JoelTorcato/Clion.git&quot;,
     &quot;accountId&quot;: &quot;91945fef-d8b9-402a-8ca8-5f85043d03af&quot;
   }
 }</component>
@@ -81,6 +81,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "C/C++ File.Exercice one.c.executor": "Run",
+    "C/C++ File.Exercise four.c.executor": "Run",
     "C/C++ File.Exercise two.c.executor": "Run",
     "C/C++ File.NEW LIBRARY.c.executor": "Run",
     "C/C++ File.array.c.executor": "Run",
@@ -106,9 +107,9 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "2024",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Utilizador/Documents/Programming projects/CLION/NOVEMBER/22 NOV/final project.c",
+    "last_opened_file_path": "C:/Users/Utilizador/Documents/Programming projects/Clion/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise four.c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -132,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="C/C++ File.Exercise two.c">
+  <component name="RunManager" selected="C/C++ File.Exercise four.c">
     <configuration name="All Tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -141,6 +142,12 @@
     </configuration>
     <configuration name="Exercice one.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="Exercice one.c" CONFIG_NAME="Exercice one.c">
       <option name="sourceFile" value="C:\Users\Utilizador\Documents\Programming projects\CLION\NOVEMBER\23 NOV\Group one (Simple sequential program)\Exercice one.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise four.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="Exercise four.c" CONFIG_NAME="Exercise four.c">
+      <option name="sourceFile" value="C:\Users\Utilizador\Documents\Programming projects\Clion\NOVEMBER\23 NOV\Group one (Simple sequential program)\Exercise four.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -160,6 +167,7 @@
     <list>
       <item itemvalue="C/C++ File.Exercice one.c" />
       <item itemvalue="C/C++ File.Exercise two.c" />
+      <item itemvalue="C/C++ File.Exercise four.c" />
       <item itemvalue="C/C++ File.final project.c" />
       <item itemvalue="Catch.All Tests" />
     </list>
@@ -206,6 +214,8 @@
       <workItem from="1732389011604" duration="21000" />
       <workItem from="1732394821553" duration="2335000" />
       <workItem from="1732435734980" duration="5033000" />
+      <workItem from="1732461379258" duration="132000" />
+      <workItem from="1732698777369" duration="2640000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
