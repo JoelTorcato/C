@@ -2,21 +2,21 @@
 
 int main() {
 
-    /* Fazer um programa em "C" que solicite 2 números e informe:
-    a) A soma dos números; Feito
-    b) O produto do primeiro número pelo quadrado do segundo;
-    c) O quadrado do primeiro número;
+    /* Fazer um programa em "C" que solicite 2 n?meros e informe:
+    a) A soma dos n?meros; Feito
+    b) O produto do primeiro n?mero pelo quadrado do segundo;
+    c) O quadrado do primeiro n?mero;
     d) A raiz quadrada da soma dos quadrados;
-    e) O seno da diferença do primeiro número pelo segundo;
-    f) O módulo do primeiro número. */
+    e) O seno da diferen?a do primeiro n?mero pelo segundo;
+    f) O m?dulo do primeiro n?mero. */
 
     float primeiroNumero = 0;
     float segundoNumero = 0;
 
-    printf("Primeiro número: ");
+    printf("Primeiro n?mero: ");
     scanf("%f", &primeiroNumero);
 
-    printf("Segundo número: ");
+    printf("Segundo n?mero: ");
     scanf("%f", &segundoNumero);
 
     float soma = primeiroNumero + segundoNumero;

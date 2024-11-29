@@ -34,7 +34,7 @@ int main() {
             quantidade_notas++;
         }
         media = total / quantidade_notas;
-        printf("a media do aluno %d foi de: %.2f\n", i + 1, media);
+        printf("a m?dia do aluno %d foi de: %.2f\n", i + 1, media);
     }
     printf("\n");
 

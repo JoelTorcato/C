@@ -19,8 +19,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I started doing exercise five.">
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I've been doing independent work on Strings">
+      <change afterPath="$PROJECT_DIR$/NOVEMBER/29 NOV/test string.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CLION.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CLION.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise five.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise five.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +104,7 @@
     "C/C++ File.final project.c.executor": "Run",
     "C/C++ File.first array.c.executor": "Run",
     "C/C++ File.second array.c.executor": "Run",
+    "C/C++ File.test string.c.executor": "Run",
     "C/C++ File.thrid.c.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -111,7 +115,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/JoelFernandes/Downloads/Clion/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise five.c",
+    "last_opened_file_path": "C:/Users/JoelFernandes/Downloads/Clion/NOVEMBER/29 NOV/test string.c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -124,6 +128,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JoelFernandes\Downloads\Clion\NOVEMBER\29 NOV" />
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\ARRAY" />
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\EXERCISES" />
     </key>
@@ -135,7 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="C/C++ File.Exercise five.c">
+  <component name="RunManager" selected="C/C++ File.test string.c">
     <configuration name="All Tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -148,8 +153,22 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercise seven.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="exercise seven.c" CONFIG_NAME="exercise seven.c">
+      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\Clion\NOVEMBER\19 NOV\exercise seven.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test string.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="test string.c" CONFIG_NAME="test string.c">
+      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\Clion\NOVEMBER\29 NOV\test string.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="C/C++ File.Exercise five.c" />
+      <item itemvalue="C/C++ File.exercise seven.c" />
+      <item itemvalue="C/C++ File.test string.c" />
       <item itemvalue="Catch.All Tests" />
     </list>
   </component>
@@ -198,7 +217,8 @@
       <workItem from="1732799962564" duration="561000" />
       <workItem from="1732800552574" duration="799000" />
       <workItem from="1732883160621" duration="1290000" />
-      <workItem from="1732892786936" duration="303000" />
+      <workItem from="1732892786936" duration="448000" />
+      <workItem from="1732894454951" duration="4451000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -312,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732804140975</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="I continued to do exercise five">
+      <option name="closed" value="true" />
+      <created>1732893144211</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732893144211</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +386,9 @@
     <MESSAGE value="I'm practicing, so I did exercise one." />
     <MESSAGE value="I started but didn't finish doing exercise two (I'm very tired)." />
     <MESSAGE value="I started doing exercise five." />
-    <option name="LAST_COMMIT_MESSAGE" value="I started doing exercise five." />
+    <MESSAGE value="I continued to do exercise five" />
+    <MESSAGE value="I've been doing independent work on Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="I've been doing independent work on Strings" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
