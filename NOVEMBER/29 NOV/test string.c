@@ -34,5 +34,15 @@ int main() {
 
     puts(nome); // Vai aparecer o nome
 
+    char mensagem[100] = "Sr(a). ";
+    char alcunha[100];
+
+    printf("Insira a sua alcunha: ");
+    gets(alcunha); // = scanf("%c", alcunha);
+
+    strcat(mensagem, alcunha);
+    strcat(mensagem, ". Bem vindo");
+    puts(mensagem);
+
     return 0;
 }
