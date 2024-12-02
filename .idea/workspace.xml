@@ -19,12 +19,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I've been doing independent work on Strings">
-      <change afterPath="$PROJECT_DIR$/NOVEMBER/29 NOV/test string.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CLION.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CLION.iml" afterDir="false" />
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I started and finished exercise four">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise five.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise five.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOVEMBER/29 NOV/test string.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/29 NOV/test string.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +53,14 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JoelTorcato/Clion.git&quot;,
-    &quot;accountId&quot;: &quot;3c084b6b-be58-4ad3-a632-e66da22723d7&quot;
+    &quot;accountId&quot;: &quot;91945fef-d8b9-402a-8ca8-5f85043d03af&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise six.c" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise four.c" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise five.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise two.c" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -84,8 +82,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "C/C++ File.Exercice one.c.executor": "Run",
-    "C/C++ File.Exercise five.c - MinGW.executor": "Debug",
-    "C/C++ File.Exercise five.c.executor": "Run",
     "C/C++ File.Exercise four.c.executor": "Run",
     "C/C++ File.Exercise two.c.executor": "Run",
     "C/C++ File.NEW LIBRARY.c.executor": "Run",
@@ -115,7 +111,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/JoelFernandes/Downloads/Clion/NOVEMBER/29 NOV/test string.c",
+    "last_opened_file_path": "C:/Users/Utilizador/Documents/Programming projects/Clion/NOVEMBER/29 NOV/test string.c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,7 +124,6 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JoelFernandes\Downloads\Clion\NOVEMBER\29 NOV" />
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\ARRAY" />
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\EXERCISES" />
     </key>
@@ -147,27 +142,13 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise five.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="Exercise five.c" CONFIG_NAME="Exercise five.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\Clion\NOVEMBER\23 NOV\Group one (Simple sequential program)\Exercise five.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercise seven.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="exercise seven.c" CONFIG_NAME="exercise seven.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\Clion\NOVEMBER\19 NOV\exercise seven.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test string.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="test string.c" CONFIG_NAME="test string.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\Clion\NOVEMBER\29 NOV\test string.c" />
+    <configuration name="test string.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLION" TARGET_NAME="test string.c" CONFIG_NAME="test string.c">
+      <option name="sourceFile" value="C:\Users\Utilizador\Documents\Programming projects\Clion\NOVEMBER\29 NOV\test string.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.Exercise five.c" />
-      <item itemvalue="C/C++ File.exercise seven.c" />
       <item itemvalue="C/C++ File.test string.c" />
       <item itemvalue="Catch.All Tests" />
     </list>
@@ -214,11 +195,10 @@
       <workItem from="1732389011604" duration="21000" />
       <workItem from="1732394821553" duration="2335000" />
       <workItem from="1732435734980" duration="5033000" />
-      <workItem from="1732799962564" duration="561000" />
-      <workItem from="1732800552574" duration="799000" />
-      <workItem from="1732883160621" duration="1290000" />
-      <workItem from="1732892786936" duration="448000" />
-      <workItem from="1732894454951" duration="4451000" />
+      <workItem from="1732461379258" duration="132000" />
+      <workItem from="1732698777369" duration="3330000" />
+      <workItem from="1732827656596" duration="44000" />
+      <workItem from="1732992829568" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -324,23 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732397158849</updated>
     </task>
-    <task id="LOCAL-00014" summary="I started doing exercise five.">
+    <task id="LOCAL-00014" summary="I started and finished exercise four">
       <option name="closed" value="true" />
-      <created>1732804140975</created>
+      <created>1732727663491</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1732804140975</updated>
+      <updated>1732727663491</updated>
     </task>
-    <task id="LOCAL-00015" summary="I continued to do exercise five">
-      <option name="closed" value="true" />
-      <created>1732893144211</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1732893144211</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,10 +357,8 @@
     <MESSAGE value="I made one more option in my final project" />
     <MESSAGE value="I'm practicing, so I did exercise one." />
     <MESSAGE value="I started but didn't finish doing exercise two (I'm very tired)." />
-    <MESSAGE value="I started doing exercise five." />
-    <MESSAGE value="I continued to do exercise five" />
-    <MESSAGE value="I've been doing independent work on Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="I've been doing independent work on Strings" />
+    <MESSAGE value="I started and finished exercise four" />
+    <option name="LAST_COMMIT_MESSAGE" value="I started and finished exercise four" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
