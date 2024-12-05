@@ -19,7 +19,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I started doing the exercise five.c">
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="new commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DECEMBER/03 DEC/exercise five.c" beforeDir="false" afterPath="$PROJECT_DIR$/DECEMBER/03 DEC/exercise five.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test string.exe" beforeDir="false" afterPath="$PROJECT_DIR$/test string.exe" afterDir="false" />
@@ -156,9 +156,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.test string.c" />
-      <item itemvalue="C/C++ File.exercise five.c" />
       <item itemvalue="Catch.All Tests" />
+      <item itemvalue="C/C++ File.exercise five.c" />
+      <item itemvalue="C/C++ File.test string.c" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -208,7 +208,7 @@
       <workItem from="1732827656596" duration="44000" />
       <workItem from="1732992829568" duration="1229000" />
       <workItem from="1733228060748" duration="1857000" />
-      <workItem from="1733403004560" duration="2473000" />
+      <workItem from="1733403004560" duration="2520000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -330,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733233184792</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1733405529304</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733405529304</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +374,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="new commit.&#10;03/05/2024." />
-    <MESSAGE value="new commit" />
     <MESSAGE value="exercise 6.c &#10;fazer o e), f), g)" />
     <MESSAGE value="I just did exercise four and six, today is the twenty-first of November." />
     <MESSAGE value="I started doing exercise seven" />
@@ -377,7 +384,8 @@
     <MESSAGE value="I started but didn't finish doing exercise two (I'm very tired)." />
     <MESSAGE value="I started and finished exercise four" />
     <MESSAGE value="I started doing the exercise five.c" />
-    <option name="LAST_COMMIT_MESSAGE" value="I started doing the exercise five.c" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

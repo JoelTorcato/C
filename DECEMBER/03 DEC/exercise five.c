@@ -39,8 +39,8 @@ int main() {
     int contador = 0;
 
     printf("Insira uma palavra: ");
-    // scanf("%s", segundaPalavra);
-    gets(segundaPalavra);
+    scanf("%s", segundaPalavra);
+    // gets(segundaPalavra); Erro!
 
 
     for (int i = 0; i < strlen(segundaPalavra); i++) { // Contar o número de carateres que a palavra tem
