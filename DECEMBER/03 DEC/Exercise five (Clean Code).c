@@ -91,5 +91,21 @@ int main() {
     int numAa = contarAa(primeiraFrase);
     printf("A palavra informada possui %d Aa\n", numAa);
 
+
+    char numeroTelemovel[9];
+    printf("Insira o seu número de telemóvel: ");
+    scanf("%s", numeroTelemovel);
+
+    for (int i = 0; i < 1; i++)
+        if (numeroTelemovel[i] == '0') {
+            printf("A sua operadora é a Vodafone\n");
+        } else if (numeroTelemovel[i] == '1') {
+            printf("A sua operadora é NOS\n");
+        } else if (numeroTelemovel[i] == '2') {
+            printf("A sua operadora é MEO\n");
+        } else {
+            printf("Não tem operadora\n");
+        }
+
     return 0;
 }
