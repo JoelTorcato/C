@@ -35,18 +35,31 @@ void printPalavraReversa(char *palavra) {
     printf("\n");
 }
 
-int contarVogais(char *palavra) {
+int contarVogais(char *segundaPalavra) {
     char vogais[] = "aeiouAEIOU";
     int contador = 0;
-    for (int i = 0; i < strlen(palavra); i++) {
+    for (int i = 0; i < strlen(segundaPalavra); i++) {
         // 'i < palavra[i]' compara o índice i com o valor ASCII do caractere
         for (int j = 0; j < strlen(vogais); j++) {
-            if (palavra[i] == vogais[j]) {
+            if (segundaPalavra[i] == vogais[j]) {
                 contador++;
             }
         }
     }
     return contador;
+}
+
+int contarAa(char *frase) {
+    char Aa[] = "Aa";
+    int contadorAa = 0;
+    for (int i = 0; i < strlen(frase); i++) {
+        for (int j = 0; j < strlen(Aa); j++) {
+            if (frase[i] == Aa[j]) {
+                contadorAa++;
+            }
+        }
+    }
+    return contadorAa;
 }
 
 // Escopo local (Não reutilizáveis)
@@ -65,11 +78,18 @@ int main() {
     printPalavraReversa(palavra);
 
     char segundaPalavra[100];
-    printf("Insira uma palavra: ");
+    printf("\nIntroduza a segunda palavra: ");
     scanf("%s", segundaPalavra);
 
     int numVogais = contarVogais(segundaPalavra); // Contamos as vogais da segunda palavra
-    printf("\nA palavra informada possui %d vogais\n", numVogais);
+    printf("A palavra informada possui %d vogais\n", numVogais);
+
+    char primeiraFrase[100];
+    printf("\nInsira uma frase: ");
+    scanf("%s", primeiraFrase);
+
+    int numAa = contarAa(primeiraFrase);
+    printf("A palavra informada possui %d Aa\n", numAa);
 
     return 0;
 }
