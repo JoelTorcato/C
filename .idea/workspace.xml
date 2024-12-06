@@ -18,7 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I put my code in clean code">
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I continued to do exercise five">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DECEMBER/03 DEC/Exercise five (Clean Code).c" beforeDir="false" afterPath="$PROJECT_DIR$/DECEMBER/03 DEC/Exercise five (Clean Code).c" afterDir="false" />
     </list>
@@ -209,7 +209,7 @@
       <workItem from="1733440269676" duration="153000" />
       <workItem from="1733470282918" duration="5140000" />
       <workItem from="1733479349097" duration="5007000" />
-      <workItem from="1733488687932" duration="4355000" />
+      <workItem from="1733488687932" duration="4947000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -379,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733489220413</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="I continued to do exercise five">
+      <option name="closed" value="true" />
+      <created>1733495895206</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733495895206</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,12 +434,12 @@
     <MESSAGE value="I started and finished exercise four" />
     <MESSAGE value="I started doing the exercise five.c" />
     <MESSAGE value="new commit" />
-    <MESSAGE value="I continued to do exercise five" />
     <MESSAGE value="I organized and commented my code according to the book 'Clean Code'" />
     <MESSAGE value="I continued doing exercise five" />
     <MESSAGE value="I continued doing exercise five (Without doing clean code)" />
     <MESSAGE value="I put my code in clean code" />
-    <option name="LAST_COMMIT_MESSAGE" value="I put my code in clean code" />
+    <MESSAGE value="I continued to do exercise five" />
+    <option name="LAST_COMMIT_MESSAGE" value="I continued to do exercise five" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

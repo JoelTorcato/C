@@ -79,9 +79,16 @@ void identifyOperator(char *phoneNumber) {
     }
 }
 
-char *names[] = {"Joel", "Jotapê", "Eric"};
-char *nicknames[] = {"Fernandes", "Xavier", "Simões"};
-
+void printNamesAndNicknames(char *names[], char *nicknames[], int size) {
+    for (int i = 0; i < size; i++) {
+        if (strcmp(names[i], "") == 0) {
+            printf("O programa acabou, nome vazio\n");
+            break;
+        } else {
+            printf("%s, %s\n", nicknames[i], names[i]);
+        }
+    }
+}
 
 // Local scope (Non-reusable)
 int main() {
@@ -116,12 +123,9 @@ int main() {
     scanf("%s", phoneNumber);
     identifyOperator(phoneNumber);
 
-    for (int i = 0; i < 3; i++)
-        if (names[i] == "") {
-            printf("O programa acabou, nome vazio\n");
-            break;
-        } else {
-            printf("%s, %s\n", nicknames[i], names[i]);
-        }
+    char *names[] = {"Joel", "Jotapê", "Eric"};
+    char *nicknames[] = {"Fernandes", "Xavier", "Simões"};
+    printNamesAndNicknames(names, nicknames, 3);
+
     return 0;
 }
