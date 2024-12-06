@@ -79,12 +79,16 @@ void identifyOperator(char *phoneNumber) {
     }
 }
 
-void printNamesAndNicknames(char *names[], char *nicknames[], int size) {
-    for (int i = 0; i < size; i++) {
+void printNamesAndNicknames(char *names[], char *nicknames[]) {
+    for (int i = 0; i < 100; i++) {
+        printf("Insira o seu nome: ");
+        scanf("%s", names);
         if (strcmp(names[i], "") == 0) {
             printf("O programa acabou, nome vazio\n");
             break;
         } else {
+            printf("Insira o seu nickname: ");
+            scanf("%s", names);
             printf("%s, %s\n", nicknames[i], names[i]);
         }
     }
@@ -123,9 +127,10 @@ int main() {
     scanf("%s", phoneNumber);
     identifyOperator(phoneNumber);
 
-    char *names[] = {"Joel", "Jotapê", "Eric"};
-    char *nicknames[] = {"Fernandes", "Xavier", "Simões"};
-    printNamesAndNicknames(names, nicknames, 3);
+    char *names[] = {""};
+    char *nicknames[] = {""};
+    printNamesAndNicknames(names, nicknames);
+
 
     return 0;
 }
