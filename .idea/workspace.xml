@@ -8,6 +8,7 @@
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
@@ -18,7 +19,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I continued to do exercise five" />
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I continued to do exercise five">
+      <change afterPath="$PROJECT_DIR$/DECEMBER/03 DEC/Exercise five (Clean Code).c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +52,12 @@
     &quot;assignee&quot;: &quot;joeltorcato&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JoelTorcato/Clion.git",
-    "accountId": "91945fef-d8b9-402a-8ca8-5f85043d03af"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JoelTorcato/Clion.git&quot;,
+    &quot;accountId&quot;: &quot;91945fef-d8b9-402a-8ca8-5f85043d03af&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise six.c" root0="SKIP_HIGHLIGHTING" />
@@ -79,6 +84,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "C/C++ File.Exercice one.c.executor": "Run",
+    "C/C++ File.Exercise five (Clean Code).c.executor": "Run",
     "C/C++ File.Exercise four.c.executor": "Run",
     "C/C++ File.Exercise two.c.executor": "Run",
     "C/C++ File.NEW LIBRARY.c.executor": "Run",
@@ -107,15 +113,15 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Utilizador/Downloads/Clion/DECEMBER/03 DEC/exercise five.c",
+    "last_opened_file_path": "C:/Users/Utilizador/Downloads/Clion/DECEMBER/03 DEC/Exercise five (Clean Code).c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -133,21 +139,28 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="C/C++ File.exercise five.c (1)">
+  <component name="RunManager" selected="C/C++ File.Exercise five (Clean Code).c">
     <configuration name="All Tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise five.c (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="exercise five.c (1)" CONFIG_NAME="exercise five.c (1)">
+    <configuration name="Exercise five (Clean Code).c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="Exercise five (Clean Code).c" CONFIG_NAME="Exercise five (Clean Code).c">
+      <option name="sourceFile" value="C:\Users\Utilizador\Downloads\Clion\DECEMBER\03 DEC\Exercise five (Clean Code).c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise five.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="exercise five.c" CONFIG_NAME="exercise five.c">
       <option name="sourceFile" value="C:\Users\Utilizador\Downloads\Clion\DECEMBER\03 DEC\exercise five.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.exercise five.c (1)" />
+      <item itemvalue="C/C++ File.exercise five.c" />
+      <item itemvalue="C/C++ File.Exercise five (Clean Code).c" />
       <item itemvalue="Catch.All Tests" />
     </list>
   </component>
@@ -200,7 +213,10 @@
       <workItem from="1733228060748" duration="1857000" />
       <workItem from="1733403004560" duration="2520000" />
       <workItem from="1733438883971" duration="310000" />
-      <workItem from="1733439964649" duration="89000" />
+      <workItem from="1733439964649" duration="163000" />
+      <workItem from="1733440160750" duration="75000" />
+      <workItem from="1733440269676" duration="153000" />
+      <workItem from="1733470282918" duration="4856000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
