@@ -79,6 +79,10 @@ void identifyOperator(char *phoneNumber) {
     }
 }
 
+char *names[] = {"Joel", "Jotapê", "Eric"};
+char *nicknames[] = {"Fernandes", "Xavier", "Simões"};
+
+
 // Local scope (Non-reusable)
 int main() {
     char name[100];
@@ -112,5 +116,12 @@ int main() {
     scanf("%s", phoneNumber);
     identifyOperator(phoneNumber);
 
+    for (int i = 0; i < 3; i++)
+        if (names[i] == "") {
+            printf("O programa acabou, nome vazio\n");
+            break;
+        } else {
+            printf("%s, %s\n", nicknames[i], names[i]);
+        }
     return 0;
 }

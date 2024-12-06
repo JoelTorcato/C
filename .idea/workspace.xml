@@ -18,7 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I continued doing exercise five (Without doing clean code)">
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I put my code in clean code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DECEMBER/03 DEC/Exercise five (Clean Code).c" beforeDir="false" afterPath="$PROJECT_DIR$/DECEMBER/03 DEC/Exercise five (Clean Code).c" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise seven.c" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise six.c" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NOVEMBER/19 NOV/exercise six.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NOVEMBER/23 NOV/Group one (Simple sequential program)/Exercise four.c" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise five.c" root0="FORCE_HIGHLIGHTING" />
@@ -209,7 +209,7 @@
       <workItem from="1733440269676" duration="153000" />
       <workItem from="1733470282918" duration="5140000" />
       <workItem from="1733479349097" duration="5007000" />
-      <workItem from="1733488687932" duration="319000" />
+      <workItem from="1733488687932" duration="4355000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -371,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733485595715</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="I put my code in clean code">
+      <option name="closed" value="true" />
+      <created>1733489220413</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1733489220413</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +430,8 @@
     <MESSAGE value="I organized and commented my code according to the book 'Clean Code'" />
     <MESSAGE value="I continued doing exercise five" />
     <MESSAGE value="I continued doing exercise five (Without doing clean code)" />
-    <option name="LAST_COMMIT_MESSAGE" value="I continued doing exercise five (Without doing clean code)" />
+    <MESSAGE value="I put my code in clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="I put my code in clean code" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
