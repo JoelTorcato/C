@@ -5,13 +5,13 @@
 // Global scope (Reusable)
 
 void getName(char *name) {
-    printf("Insira o seu nome: ");
-    fgets(name, 100, stdin); // fgets inclui vereficação de limite de buffer, e o gets não
+    printf("Enter your name: ");
+    fgets(name, 50, stdin); // fgets inclui vereficação de limite de buffer, e o gets não
     name[strcspn(name, "\n")] = '\0'; // Usamos para evitar problemas com o \n no final
 }
 
 void printNameVertical(char *name) {
-    for (int i = 0; name[i]; i++) {
+    for (int i = 0; name[i]; i++) { // O loop é executado até que o caractere atual seja '\0'
         // nome [i] = nome[i] != '\0'
         printf("%c\n", name[i]);
     }
@@ -19,21 +19,22 @@ void printNameVertical(char *name) {
 
 void printNameHorizontalUppercase(char *name) {
     for (int i = 0; name[i]; i++) {
-        // Ver como funciona melhor o loop
-        printf("%c ", toupper(name[i]));
+        printf("%c ", toupper(name[i])); // O toupper converte o carectere minúsculo em maiúsculo
     }
-    printf("\n");
+    printf("\n"); // Para ficar na horizontal (interesante)
 }
 
 void printWordReversed(char *word) {
-    int length = strlen(word); // len de strlen
-    printf("A sua palavra ao contrário: ");
-    for (int i = length - 1; i >= 0; i--) {
-        // Fazemos o loop de trás para a frente (Ver melhor 'int i = len - 1')
+    int length = strlen(word); // Serve para obter o tamanho da palavra
+    printf("Your word in reverse: "); // Muito importante!
+    for (int i = length - 1; i >= 0; i--) { 
+        // Fazemos o loop de trás para a frente
         printf("%c", word[i]);
     }
     printf("\n");
 }
+
+// Até aqui (Organizar melhor os comentários)
 
 int countVowels(char *word) {
     char vowels[] = "aeiouAEIOU";
@@ -79,24 +80,9 @@ void identifyOperator(char *phoneNumber) {
     }
 }
 
-void printNamesAndNicknames(char *names[], char *nicknames[]) {
-    for (int i = 0; i < 100; i++) {
-        printf("Insira o seu nome: ");
-        scanf("%s", names);
-        if (strcmp(names[i], "") == 0) {
-            printf("O programa acabou, nome vazio\n");
-            break;
-        } else {
-            printf("Insira o seu nickname: ");
-            scanf("%s", names);
-            printf("%s, %s\n", nicknames[i], names[i]);
-        }
-    }
-}
-
 // Local scope (Non-reusable)
 int main() {
-    char name[100];
+    char name[50];
     getName(name);
 
     printf("O seu nome possui %d caracteres\n", (int) strlen(name)); // '(int)strlen(nome)' = 'strlen(nome)'
@@ -126,11 +112,6 @@ int main() {
     printf("Insira o seu número de telemóvel: ");
     scanf("%s", phoneNumber);
     identifyOperator(phoneNumber);
-
-    char *names[] = {""};
-    char *nicknames[] = {""};
-    printNamesAndNicknames(names, nicknames);
-
 
     return 0;
 }
