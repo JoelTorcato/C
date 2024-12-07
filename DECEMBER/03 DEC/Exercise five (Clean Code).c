@@ -79,6 +79,16 @@ void identifyOperator(char *phoneNumber) {
             break;
     }
 }
+    int numeroDigitosFrases(char *frase) {
+        char nChars[] = "0123456789";
+        int digitos = 0;
+        for (int i = 0; i < strlen(frase); i++) {
+            if (frase[i] >= '0' && frase[i] <= '9') {
+                digitos++;
+            }
+        }
+        return digitos;
+    }
 
 // Local scope (Non-reusable)
 int main() {
@@ -112,6 +122,42 @@ int main() {
     printf("Insira o seu número de telemóvel: ");
     scanf("%s", phoneNumber);
     identifyOperator(phoneNumber);
+
+    char firstName[50], lastName[50];
+    
+        while (1) {
+        printf("Enter your first name (or press Enter to quit): ");
+        if (fgets(firstName, sizeof(firstName), stdin) == NULL) {
+            printf("Error reading first name.\n");
+            break;
+        }
+        firstName[strcspn(firstName, "\n")] = '\0';  // Remove the newline character
+
+        if (strlen(firstName) == 0) break;  // Exit the loop if the input is empty
+
+        printf("Enter your last name: ");
+        if (fgets(lastName, sizeof(lastName), stdin) == NULL) {
+            printf("Error reading last name.\n");
+            break;
+        }
+        lastName[strcspn(lastName, "\n")] = '\0';  // Remove the newline character
+
+        printf("Formatted: %s, %s\n", lastName, firstName);
+    }
+
+    printf("Program terminated.\n"); 
+
+    char frase[100];
+    printf("\nInsira uma frase:");
+    scanf(" %[^\n]", frase); // Ver
+
+    int Numerodigitos = numeroDigitosFrases(frase);
+    printf("A frase possui %d numero(s) \n", Numerodigitos);
+
+
+
+
+
 
     return 0;
 }
