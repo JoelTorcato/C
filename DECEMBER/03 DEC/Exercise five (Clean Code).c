@@ -65,16 +65,16 @@ int countCharacterOccurrences(char *phrase, char *characters) {
 void identifyOperator(char *phoneNumber) {
     switch (phoneNumber[0]) {
         case '0':
-            printf("A sua operadora é a Vodafone\n");
+            printf("Your operator is Vodafone\n");
             break;
         case '1':
-            printf("A sua operadora é NOS\n");
+            printf("Your operator is NOS\n");
             break;
         case '2':
-            printf("A sua operadora é MEO\n");
+            printf("Your operator is MEO\n");
             break;
         default:
-            printf("Não tem operadora\n");
+            printf("No operator\n");
             break;
     }
 }
@@ -114,11 +114,11 @@ int countDigitsInPhrase(char *phrase) {
     return digits;
 }
 
-// 8.
+// 8. (Dúvidas)
 void reverseString(char *str) {
     int length = strlen(str);
-    for (int i = 0; i < length / 2; i++) {
-        char temp = str[i];
+    for (int i = 0; i < length / 2; i++) { // Percorre metade da string
+        char temp = str[i]; // temp = temporária
         str[i] = str[length - i - 1];
         str[length - i - 1] = temp;
     }
@@ -130,57 +130,67 @@ void checkPalindrome(char *word) {
     reverseString(reversedWord);
 
     if (strcmp(word, reversedWord) == 0) {
-        printf("A palavra é capicua\n");
+        printf("The word is capicua\n");
     } else {
-        printf("A palavra não é capicua\n");
+        printf("The word is not capicua\n");
     }
 }
 
+// Comentei até aqui, mas melhorias podem ser feitas
+
 int main() {
+    // 1.
     char name[100];
     getName(name);
 
-    printf("O seu nome possui %d caracteres\n", (int) strlen(name));
+    printf("Your name has %d characters\n", (int) strlen(name));
     printNameVertical(name);
     printNameHorizontalUppercase(name);
 
+    // 2.
     char word[100];
-    printf("\nIntroduza uma palavra: ");
+    printf("\nEnter a word: ");
     scanf("%s", word);
     printWordReversed(word);
 
+    // 3.
     char secondWord[100];
-    printf("\nIntroduza a segunda palavra: ");
+    printf("\nEnter the second word: ");
     scanf("%s", secondWord);
 
     int vowelCount = countVowels(secondWord);
-    printf("A palavra informada possui %d vogais\n", vowelCount);
+    printf("The given word has %d vowels\n", vowelCount);
 
+    // 4.
     char phrase[100];
-    printf("\nInsira uma frase: ");
+    printf("\nInsert a sentence: ");
     scanf(" %[^\n]", phrase);
 
     int aCount = countCharacterOccurrences(phrase, "Aa");
-    printf("A palavra informada possui %d Aa\n", aCount);
+    printf("The given word has %d Aa\n", aCount);
 
+    // 5.
     char phoneNumber[9];
-    printf("Insira o seu número de telemóvel: ");
+    printf("Enter your mobile number: ");
     scanf("%s", phoneNumber);
     identifyOperator(phoneNumber);
 
+    // 6. (Dúvidas)
     formatNames();
 
     printf("Program terminated.\n");
 
+    // 7.
     char phraseWithDigits[100];
-    printf("\nInsira uma frase:");
+    printf("\nInsert a sentence: ");
     scanf(" %[^\n]", phraseWithDigits);
 
     int digitCount = countDigitsInPhrase(phraseWithDigits);
-    printf("A frase possui %d numero(s) \n", digitCount);
+    printf("The sentence has %d number(s)\n", digitCount);
 
+    // 8.
     char palindromeWord[100];
-    printf("\nInsira uma palavra para verificar se é capicua: ");
+    printf("\nEnter a word to check if it is capicua: ");
     scanf("%s", palindromeWord);
     checkPalindrome(palindromeWord);
 
