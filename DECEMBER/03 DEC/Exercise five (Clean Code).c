@@ -4,9 +4,10 @@
 
 // Global scope (Reusable)
 
+// 1.
 void getName(char *name) {
     printf("Enter your name: ");
-    fgets(name, 50, stdin); // fgets inclui vereficação de limite de buffer, e o gets não
+    fgets(name, 100, stdin); // fgets inclui vereficação de limite de buffer, e o gets não
     name[strcspn(name, "\n")] = '\0'; // Usamos para evitar problemas com o \n no final
 }
 
@@ -24,6 +25,7 @@ void printNameHorizontalUppercase(char *name) {
     printf("\n"); // Para ficar na horizontal (interesante)
 }
 
+// 2.
 void printWordReversed(char *word) {
     int length = strlen(word); // Serve para obter o tamanho da palavra
     printf("Your word in reverse: "); // Muito importante!
@@ -34,14 +36,12 @@ void printWordReversed(char *word) {
     printf("\n");
 }
 
-// Até aqui (Organizar melhor os comentários)
-
+// 3.
 int countVowels(char *word) {
     char vowels[] = "aeiouAEIOU";
     int count = 0;
-    for (int i = 0; i < strlen(word); i++) {
-        // 'i < palavra[i]' compara o índice i com o valor ASCII do caractere
-        for (int j = 0; j < strlen(vowels); j++) {
+    for (int i = 0; i < strlen(word); i++) { // Vê cada caractere da palavra (Forma simples)
+        for (int j = 0; j < strlen(vowels); j++) { // vowels = filho
             if (word[i] == vowels[j]) {
                 count++;
             }
@@ -50,6 +50,7 @@ int countVowels(char *word) {
     return count;
 }
 
+// 4.
 int countA(char *phrase) {
     char aChars[] = "Aa";
     int count = 0;
@@ -63,9 +64,10 @@ int countA(char *phrase) {
     return count;
 }
 
+// 5.
 void identifyOperator(char *phoneNumber) {
-    switch (phoneNumber[0]) {
-        case '0':
+    switch (phoneNumber[0]) { // Uso phoneNumber[0] para obter o primeiro caractere
+        case '0': // case = if
             printf("A sua operadora é a Vodafone\n");
             break;
         case '1':
@@ -74,16 +76,18 @@ void identifyOperator(char *phoneNumber) {
         case '2':
             printf("A sua operadora é MEO\n");
             break;
-        default:
+        default: // default = else
             printf("Não tem operadora\n");
             break;
     }
 }
+// 7.
+
     int numeroDigitosFrases(char *frase) {
         char nChars[] = "0123456789";
         int digitos = 0;
         for (int i = 0; i < strlen(frase); i++) {
-            if (frase[i] >= '0' && frase[i] <= '9') {
+            if (frase[i] >= '0' && frase[i] <= '9') { // Verifica se o caractere é um número
                 digitos++;
             }
         }
@@ -92,7 +96,7 @@ void identifyOperator(char *phoneNumber) {
 
 // Local scope (Non-reusable)
 int main() {
-    char name[50];
+    char name[100];
     getName(name);
 
     printf("O seu nome possui %d caracteres\n", (int) strlen(name)); // '(int)strlen(nome)' = 'strlen(nome)'
@@ -153,11 +157,6 @@ int main() {
 
     int Numerodigitos = numeroDigitosFrases(frase);
     printf("A frase possui %d numero(s) \n", Numerodigitos);
-
-
-
-
-
 
     return 0;
 }
