@@ -26,9 +26,9 @@ void printNameHorizontalUppercase(char *name) {
 
 // 2.
 void printWordReversed(char *word) {
-    int length = strlen(word); // Serve para obter o tamanho da palavra
+    int lengthWord = strlen(word); // Serve para obter o tamanho da palavra
     printf("Your word in reverse: ");
-    for (int i = length - 1; i >= 0; i--) { 
+    for (int i = lengthWord - 1; i >= 0; i--) {  // O loop é executado de trás para a frente
         printf("%c", word[i]);
     }
     printf("\n");
@@ -38,8 +38,8 @@ void printWordReversed(char *word) {
 int countVowels(char *word) {
     char vowels[] = "aeiouAEIOU";
     int count = 0;
-    for (int i = 0; i < strlen(word); i++) {
-        for (int j = 0; j < strlen(vowels); j++) {
+    for (int i = 0; i < strlen(word); i++) { // Vê todos os caracteres da palavra
+        for (int j = 0; j < strlen(vowels); j++) { // Vê todas as vogais da variável vowels
             if (word[i] == vowels[j]) {
                 count++;
             }
@@ -63,7 +63,7 @@ int countCharacterOccurrences(char *phrase, char *characters) {
 
 // 5.
 void identifyOperator(char *phoneNumber) {
-    switch (phoneNumber[0]) {
+    switch (phoneNumber[0]) { // phoneNumber[0] verificia o primeiro caractere do número
         case '0':
             printf("Your operator is Vodafone\n");
             break;
@@ -80,7 +80,7 @@ void identifyOperator(char *phoneNumber) {
 }
 
 // 6.
-void formatNames() {
+void formatNames() { // Erro
     char firstName[50], lastName[50];
     while (1) {
         printf("Enter your first name (or press Enter to quit): ");
@@ -115,7 +115,7 @@ int countDigitsInPhrase(char *phrase) {
 }
 
 // 8. (Dúvidas)
-void reverseString(char *str) {
+void reverseString(char *str) { // str = string
     int length = strlen(str);
     for (int i = 0; i < length / 2; i++) { // Percorre metade da string
         char temp = str[i]; // temp = temporária
@@ -129,7 +129,7 @@ void checkPalindrome(char *word) {
     strcpy(reversedWord, word);
     reverseString(reversedWord);
 
-    if (strcmp(word, reversedWord) == 0) {
+    if (strcmp(word, reversedWord) == 0) { // Se forem iguais
         printf("The word is capicua\n");
     } else {
         printf("The word is not capicua\n");
@@ -163,11 +163,16 @@ int main() {
 
     // 4.
     char phrase[100];
+    char characters[100];
+
     printf("\nInsert a sentence: ");
     scanf(" %[^\n]", phrase);
 
-    int aCount = countCharacterOccurrences(phrase, "Aa");
-    printf("The given word has %d Aa\n", aCount);
+    printf("Insert characters to count: ");
+    scanf(" %[^\n]", characters);
+
+    int count = countCharacterOccurrences(phrase, characters);
+    printf("The given sentence has %d occurrences of '%s'\n", count, characters);
 
     // 5.
     char phoneNumber[9];
@@ -183,7 +188,7 @@ int main() {
     // 7.
     char phraseWithDigits[100];
     printf("\nInsert a sentence: ");
-    scanf(" %[^\n]", phraseWithDigits);
+    scanf(" %[^\n]", phraseWithDigits); // %[^\n] lê a string até encontrar um \n
 
     int digitCount = countDigitsInPhrase(phraseWithDigits);
     printf("The sentence has %d number(s)\n", digitCount);
