@@ -7,7 +7,7 @@
 // 1.
 void getName(char *name) {
     printf("Enter your name: ");
-    fgets(name, 100, stdin); // fgets inclui vereficação de limite de buffer, e o gets não
+    fgets(name, 100, stdin); // fgets inclui verificação de limite de buffer, e o gets não
     name[strcspn(name, "\n")] = '\0'; // Usamos para evitar problemas com o \n no final
 }
 
@@ -63,7 +63,7 @@ int countCharacterOccurrences(char *phrase, char *characters) {
 
 // 5.
 void identifyOperator(char *phoneNumber) {
-    switch (phoneNumber[0]) { // phoneNumber[0] verificia o primeiro caractere do número
+    switch (phoneNumber[0]) { // phoneNumber[0] verifica o primeiro caractere do número
         case '0':
             printf("Your operator is Vodafone\n");
             break;
@@ -79,8 +79,8 @@ void identifyOperator(char *phoneNumber) {
     }
 }
 
-// 6.
-void formatNames() { // Erro
+// 6. (Erro)
+void formatNames() {
     char firstName[50], lastName[50];
     while (1) {
         printf("Enter your first name (or press Enter to quit): ");
@@ -114,7 +114,7 @@ int countDigitsInPhrase(char *phrase) {
     return digits;
 }
 
-// 8. (Dúvidas)
+// 8.
 void reverseString(char *str) { // str = string
     int length = strlen(str);
     for (int i = 0; i < length / 2; i++) { // Percorre metade da string
@@ -135,8 +135,6 @@ void checkPalindrome(char *word) {
         printf("The word is not capicua\n");
     }
 }
-
-// Comentei até aqui, mas melhorias podem ser feitas
 
 int main() {
     // 1.
@@ -180,7 +178,7 @@ int main() {
     scanf("%s", phoneNumber);
     identifyOperator(phoneNumber);
 
-    // 6. (Dúvidas)
+    // 6. (Erro)
     formatNames();
 
     printf("Program terminated.\n");
