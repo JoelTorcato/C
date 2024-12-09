@@ -101,6 +101,7 @@ void formatNames() {
 
         printf("Formatted: %s, %s\n", lastName, firstName);
     }
+    formatNames();
 }
 
 // 7.
@@ -180,7 +181,6 @@ int main() {
 
     // 6. (Erro)
     formatNames();
-
     printf("Program terminated.\n");
 
     // 7.
