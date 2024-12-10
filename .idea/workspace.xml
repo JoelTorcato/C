@@ -18,10 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="Corrections to Exercise five (Clean Code).c">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" beforeDir="false" afterPath="$PROJECT_DIR$/NOVEMBER/22 NOV/final project.c" afterDir="false" />
-    </list>
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="new commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +221,7 @@
       <workItem from="1733764203352" duration="2786000" />
       <workItem from="1733828546090" duration="889000" />
       <workItem from="1733830617501" duration="92000" />
-      <workItem from="1733830722264" duration="2437000" />
+      <workItem from="1733830722264" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -426,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733766839577</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1733834468530</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1733834468530</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +477,6 @@
     <MESSAGE value="I started but didn't finish doing exercise two (I'm very tired)." />
     <MESSAGE value="I started and finished exercise four" />
     <MESSAGE value="I started doing the exercise five.c" />
-    <MESSAGE value="new commit" />
     <MESSAGE value="I organized and commented my code according to the book 'Clean Code'" />
     <MESSAGE value="I continued doing exercise five" />
     <MESSAGE value="I continued doing exercise five (Without doing clean code)" />
@@ -481,7 +485,8 @@
     <MESSAGE value="I put my code in 'Clean Code' (No comments)" />
     <MESSAGE value="Continuation of Exercise five.c" />
     <MESSAGE value="Corrections to Exercise five (Clean Code).c" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrections to Exercise five (Clean Code).c" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
