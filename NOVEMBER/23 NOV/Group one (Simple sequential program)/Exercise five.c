@@ -2,24 +2,34 @@
 
 int main() {
 
-    /* Fazer um programa em "C" que solicite 2 n?meros e informe:
-    a) A soma dos n?meros; Feito
-    b) O produto do primeiro n?mero pelo quadrado do segundo;
-    c) O quadrado do primeiro n?mero;
+    /* Fazer um programa em "C" que solicite 2 numeros e informe:
+    a) A soma dos numeros; Feito
+    b) O produto do primeiro numero pelo quadrado do segundo; Feito
+    c) O quadrado do primeiro numero; Feito
     d) A raiz quadrada da soma dos quadrados;
-    e) O seno da diferen?a do primeiro n?mero pelo segundo;
-    f) O m?dulo do primeiro n?mero. */
+    e) O seno da diferenua do primeiro numero pelo segundo;
+    f) O mudulo do primeiro numero. */
 
     float primeiroNumero = 0;
     float segundoNumero = 0;
 
-    printf("Primeiro n?mero: ");
+    printf("Primeiro numero: ");
     scanf("%f", &primeiroNumero);
 
-    printf("Segundo n?mero: ");
+    printf("Segundo numero: ");
     scanf("%f", &segundoNumero);
 
     float soma = primeiroNumero + segundoNumero;
 
-    printf("%.2f + %.2f =  %.2f", primeiroNumero, segundoNumero, soma);
+    printf("%.2f + %.2f =  %.2f\n", primeiroNumero, segundoNumero, soma);
+
+    float segundoNumeroQuadrado = segundoNumero * segundoNumero;
+    float produtoAoQuadrado = primeiroNumero * segundoNumeroQuadrado;
+    float primeiroNumeroQuadrado = primeiroNumero * primeiroNumero;
+
+    printf("%2.f * %.2f (o segundo numero está elevado ao quadrado)  = %2.f\n", primeiroNumero, segundoNumeroQuadrado,
+           produtoAoQuadrado);
+    printf("O primeiro numero ao quadrado é: %.2f\n", primeiroNumeroQuadrado);
+
+    return 0;
 }

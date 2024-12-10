@@ -18,10 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I put my code in 'Clean Code' (No comments)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DECEMBER/03 DEC/Exercise five (Clean Code).c" beforeDir="false" afterPath="$PROJECT_DIR$/DECEMBER/03 DEC/Exercise five (Clean Code).c" afterDir="false" />
-    </list>
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="new commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,8 +49,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JoelTorcato/Clion.git&quot;,
-    &quot;accountId&quot;: &quot;91945fef-d8b9-402a-8ca8-5f85043d03af&quot;
+    &quot;url&quot;: &quot;https://github.com/JoelTorcato/C.git&quot;,
+    &quot;accountId&quot;: &quot;3c084b6b-be58-4ad3-a632-e66da22723d7&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -89,6 +86,7 @@
   &quot;keyToString&quot;: {
     &quot;C/C++ File.Exercice one.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.Exercise five (Clean Code).c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Exercise five.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.Exercise four.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.Exercise two.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.NEW LIBRARY.c.executor&quot;: &quot;Run&quot;,
@@ -119,12 +117,13 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utilizador/Downloads/Clion/DECEMBER/03 DEC/Exercise five (Clean Code).c&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JoelFernandes/Downloads/C/NOVEMBER/22 NOV/final project.c&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;service.view.auto.scroll.from.source&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -143,21 +142,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="C/C++ File.Exercise five (Clean Code).c">
+  <component name="RunManager" selected="C/C++ File.final project.c">
     <configuration name="All Tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise five (Clean Code).c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clion" TARGET_NAME="Exercise five (Clean Code).c" CONFIG_NAME="Exercise five (Clean Code).c">
-      <option name="sourceFile" value="C:\Users\Utilizador\Downloads\Clion\DECEMBER\03 DEC\Exercise five (Clean Code).c" />
+    <configuration name="final project.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="final project.c" CONFIG_NAME="final project.c">
+      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\C\NOVEMBER\22 NOV\final project.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.Exercise five (Clean Code).c" />
+      <item itemvalue="C/C++ File.final project.c" />
       <item itemvalue="Catch.All Tests" />
     </list>
   </component>
@@ -216,6 +215,13 @@
       <workItem from="1733470282918" duration="5140000" />
       <workItem from="1733479349097" duration="5007000" />
       <workItem from="1733488687932" duration="9330000" />
+      <workItem from="1733754896464" duration="508000" />
+      <workItem from="1733756060132" duration="705000" />
+      <workItem from="1733763900533" duration="283000" />
+      <workItem from="1733764203352" duration="2786000" />
+      <workItem from="1733828546090" duration="889000" />
+      <workItem from="1733830617501" duration="92000" />
+      <workItem from="1733830722264" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -401,7 +407,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733496538962</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Continuation of Exercise five.c">
+      <option name="closed" value="true" />
+      <created>1733756754336</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733756754336</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Corrections to Exercise five (Clean Code).c">
+      <option name="closed" value="true" />
+      <created>1733766839577</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733766839577</updated>
+    </task>
+    <task id="LOCAL-00026" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1733834468530</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1733834468530</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,14 +477,16 @@
     <MESSAGE value="I started but didn't finish doing exercise two (I'm very tired)." />
     <MESSAGE value="I started and finished exercise four" />
     <MESSAGE value="I started doing the exercise five.c" />
-    <MESSAGE value="new commit" />
     <MESSAGE value="I organized and commented my code according to the book 'Clean Code'" />
     <MESSAGE value="I continued doing exercise five" />
     <MESSAGE value="I continued doing exercise five (Without doing clean code)" />
     <MESSAGE value="I put my code in clean code" />
     <MESSAGE value="I continued to do exercise five" />
     <MESSAGE value="I put my code in 'Clean Code' (No comments)" />
-    <option name="LAST_COMMIT_MESSAGE" value="I put my code in 'Clean Code' (No comments)" />
+    <MESSAGE value="Continuation of Exercise five.c" />
+    <MESSAGE value="Corrections to Exercise five (Clean Code).c" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
