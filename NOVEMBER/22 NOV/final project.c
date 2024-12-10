@@ -3,7 +3,7 @@
 #include <locale.h>
 #include <stdlib.h> // A biblioteca stdlib.h é uma biblioteca padrão do C que fornece funções úteis para manipulação de memória, conversões, geração de números aleatórios e controle de processos.
 
-
+// Escopo global
 void escreverNumeroViagens(char *diasSemana[], int viagensDia[]) {
     // *Declarei a variável para ficarem no escopo global
     for (int i = 0; i < 7; i++) {
@@ -12,6 +12,8 @@ void escreverNumeroViagens(char *diasSemana[], int viagensDia[]) {
     }
 }
 
+
+// Es
 int main() {
     setlocale(LC_ALL, "Portuguese_Portugal.1252"); // *Tentei pôr em português, mas não deu bem (perguntar ao professor)
 
@@ -19,7 +21,7 @@ int main() {
     char *diasSemana[] = {
         "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo"
     };
-    int viagensDia[6] = {0};
+    int viagensDia[6] = {0}; // Escolher o número de viagens por dia
 
     escreverNumeroViagens(diasSemana, viagensDia);
 
@@ -42,7 +44,7 @@ int main() {
 
         if (opcao == 1) {
             for (int i = 0; i < 7; i++) {
-                printf("%s: %d viagens\n", diasSemana[i], viagensDia[i]);
+                printf("%s: %d viagens\n", diasSemana[i], viagensDia[i]); // [i] do ciclo for, %d inteiro, %s string
             }
         } else if (opcao == 2) {
             int maxViagens = 100;
