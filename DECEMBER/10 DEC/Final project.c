@@ -12,6 +12,8 @@ void writeTravelNumber (char *weekDays[], int travelDay[])
   }
 }
 
+int i;
+
 int main () {
   setlocale(LC_ALL, "Portuguese_Portugal.1252"); // Portuguese language
 
@@ -20,19 +22,52 @@ int main () {
     "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
   };
 
-  int travelDay[6] = {0}; 
+  int travelDay[7] = {0}; 
 
   writeTravelNumber(weekDays, travelDay); // I initialized void 'writeTravelNumber'
 
-  int opcao;
+  int option;
+  char resp;
+
   do {
         printf("\n 1 - Show the days of the week and their respective trips");
         printf("\n 2 - Show the day(s) with the most trips");
         printf("\n 3 - Show the day(s) with the fewest trips");
         printf("\n 4 - Show average trips per week");
         printf("\n 5 - Show average trips per weekend");
-        printf("\n 6 - Show the day(s) of the week that there were 0 trips"); // See better
+        printf("\n 6 - Show the day(s) of the week that there were 0 trips\n"); // See better
+
+        printf("\n Option: ");
+        scanf("%d", &option);
+
+        if (option == 1) 
+        {
+          for (i = 0; i < 7; i++) {
+            printf("%s: %d trips\n", weekDays[i], travelDay[i]);
+          }
+        } else if (option == 2) {
+          int maxTrips = 100;
+
+          for (i = 0; i < 7; i++) {
+            if (travelDay[i] > maxTrips)
+              maxTrips = travelDay[i];
+          }
+          printf("The day(s) with the most trips was:");
+
+          for (i = 0; i < 7; i++) {
+            if (travelDay[i] >= maxTrips)
+            printf("%s ", weekDays[i]);
+          }
+        }
+
+        printf("\n Want to see another option? (S/N): ");
+
+        while ((getchar()) != '\n') {
+        }
+        scanf("%c", &resp);
+
+    } while (toupper(resp) == 'S'); 
+    system("cls"); // Clears the exit screen of a program.
 
   return 0;
-  }
 }
