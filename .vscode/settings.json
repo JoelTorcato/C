@@ -6,5 +6,6 @@
     ".dev.vars": "dotenv",
     "stdio.h": "c",
     "locale.h": "c"
-  }
+  },
+  "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe"
 }
