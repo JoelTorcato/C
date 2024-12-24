@@ -34,8 +34,8 @@ int main()
     printf("\n 1 - Show the days of the week and their respective trips");
     printf("\n 2 - Show the day(s) with the most trips");
     printf("\n 3 - Show the day(s) with the fewest trips");
-    /* printf("\n 4 - Show average trips per week");
-    printf("\n 5 - Show average trips per weekend");
+    printf("\n 4 - Show average trips per week");
+    /* printf("\n 5 - Show average trips per weekend");
     printf("\n 6 - Show the day(s) of the week that there were 0 trips\n"); // See better */
 
     printf("\n Option: ");
@@ -79,6 +79,14 @@ int main()
         if (travelDay[i] <= minTrips)
         printf("%s", weekDays[i]);
       }
+    } else if (option == 4) {
+      int addAll = 0;
+
+      for (i = 0; i < 7; i++)
+      {
+        addAll += travelDay[i];
+      }
+      printf("Average travel per week was: %d", addAll);
     }
 
     printf("\n Want to see another option? (S/N): ");
