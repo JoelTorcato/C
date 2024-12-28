@@ -37,6 +37,11 @@ int main()
     printf("\n 4 - Show average trips per week");
     printf("\n 5 - Show average trips per weekend");
     printf("\n 6 - Show the day(s) of the week that there were 0 trips\n");
+    printf("\n 7 - Show a comparison of trips between weekdays and weekends"); 
+    printf("\n 8 - Show the total number of trips in the month");
+    printf("\n 9 - Show the percentage of trips made on weekends");
+    printf("\n 10 - Show the day with the highest percentage of trips relative to the total");
+    
 
     printf("\n Option: ");
     scanf("%d", &option);
@@ -107,7 +112,19 @@ int main()
          if (travelDay[i] = zeroTravels)
           printf("%s", weekDays[i]);
       }
+    } else if (option == 7) { // Error
+      int weekdaysTravels = 0;
+      int weekendsTravels = 0;
 
+      for (i = 0; i < 5; i++) 
+      {
+        weekdaysTravels += travelDay[i];
+      }
+      for (i = 5; i = 7; i++) 
+      {
+        weekendsTravels += travelDay[i];
+      }
+      printf("Weekday trips: %d\n Weekends trips: %d", weekdaysTravels, weekendsTravels);
     }
 
     printf("\n Want to see another option? (S/N): ");
