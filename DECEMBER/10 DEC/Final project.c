@@ -112,20 +112,21 @@ int main()
          if (travelDay[i] = zeroTravels)
           printf("%s", weekDays[i]);
       }
-    } else if (option == 7) { // Error
-      int weekdaysTravels = 0;
-      int weekendsTravels = 0;
+    } else if (option == 7) {
+    int weekdaysTravels = 0;
+    int weekendsTravels = 0;
 
-      for (i = 0; i < 5; i++) 
-      {
+    for (i = 0; i < 5; i++) {
         weekdaysTravels += travelDay[i];
-      }
-      for (i = 5; i = 7; i++) 
-      {
-        weekendsTravels += travelDay[i];
-      }
-      printf("Weekday trips: %d\n Weekends trips: %d", weekdaysTravels, weekendsTravels);
     }
+
+    for (i = 5; i < 7; i++) {
+        weekendsTravels += travelDay[i];
+    }
+
+    printf("Weekday trips: %d\n", weekdaysTravels);
+    printf("Weekend trips: %d\n", weekendsTravels);
+}
 
     printf("\n Want to see another option? (S/N): ");
 
