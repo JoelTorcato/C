@@ -38,9 +38,9 @@ int main()
     printf("\n 5 - Show average trips per weekend");
     printf("\n 6 - Show the day(s) of the week that there were 0 trips\n");
     printf("\n 7 - Show a comparison of trips between weekdays and weekends"); 
-    printf("\n 8 - Show the total number of trips in the month");
+   /* printf("\n 8 - Show the total number of trips in the month");
     printf("\n 9 - Show the percentage of trips made on weekends");
-    printf("\n 10 - Show the day with the highest percentage of trips relative to the total");
+    printf("\n 10 - Show the day with the highest percentage of trips relative to the total"); */
     
 
     printf("\n Option: ");
