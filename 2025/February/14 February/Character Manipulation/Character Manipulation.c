@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char c = 'A';
+    char c = 'A'; // ASCII 65 -> 01000001
 
     printf("Caractere: %c\n", c);
     printf("Valor Decimal: %d\n", c);
