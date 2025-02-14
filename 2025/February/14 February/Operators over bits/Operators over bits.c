@@ -10,5 +10,5 @@ int main() {
     printf("Shift Left x << 1: %u\n", x << 1);
     printf("Shift Right x >> 1: %u\n", x >> 1);
 
-    return 0:
+    return 0;
 }
