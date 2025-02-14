@@ -9,4 +9,6 @@ int main() {
     printf("XOR com 3: %u\n, x ^ 3");
     printf("Shift Left x << 1: %u\n", x << 1);
     printf("Shift Right x >> 1: %u\n", x >> 1);
+
+    return 0:
 }
