@@ -3,29 +3,17 @@
 #include <locale.h>
 #include <ctype.h>
 
-// Function to write the number of travels for each day of the week
-void writeTravelNumber(char *weekDays[], int travelDay[]) {
+// Function to get user input for the number of trips per day
+void getTravelData(char *weekDays[], int travelDay[]) {
+    printf("Enter the number of trips for each day of the week:\n");
     for (int i = 0; i < 7; i++) {
         printf("%s: ", weekDays[i]);
         scanf("%d", &travelDay[i]);
     }
 }
 
-// Function to read travel data from a file
-void readTravelDataFromFile(char *filename, int travelDay[]) {
-    FILE *file = fopen(filename, "r");
-    if (file == NULL) {
-        printf("Error opening file.\n");
-        return;
-    }
-    for (int i = 0; i < 7; i++) {
-        fscanf(file, "%d", &travelDay[i]);
-    }
-    fclose(file);
-}
-
 // Function to write travel data to a file
-void writeTravelDataToFile(char *filename, int travelDay[]) {
+void writeTravelDataToFile(const char *filename, int travelDay[]) {
     FILE *file = fopen(filename, "w");
     if (file == NULL) {
         printf("Error opening file.\n");
@@ -35,60 +23,60 @@ void writeTravelDataToFile(char *filename, int travelDay[]) {
         fprintf(file, "%d\n", travelDay[i]);
     }
     fclose(file);
+    printf("Travel data saved to %s\n", filename);
 }
 
 // Function to print binary representation of an integer
-void printBinary(int n) {
-    for (int i = 31; i >= 0; i--) {
-        printf("%d", (n >> i) & 1);
+void printBinary(int total_trips) {
+    if (total_trips > 1) {
+        printBinary(total_trips / 2);
     }
-    printf("\n");
+    printf("%d", total_trips % 2);
 }
 
 int main() {
     setlocale(LC_ALL, "Portuguese_Portugal"); // Portuguese language
 
-    // Pre-defined the days of the week
-    char *weekDays[] = {
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-    };
-
+    char *weekDays[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     int travelDay[7] = {0};
-
-    // Read travel data from file
-    readTravelDataFromFile("travel_data.txt", travelDay);
-
     int option;
     char resp;
 
+    // Get user input and save to file
+    getTravelData(weekDays, travelDay);
+    writeTravelDataToFile("travel_data.txt", travelDay);
+
     do {
-        printf("\n 1 - Show the days of the week and their respective trips");
-        printf("\n 2 - Show the day(s) with the most trips");
-        printf("\n 3 - Show the day(s) with the fewest trips");
-        printf("\n 4 - Show average trips per week");
-        printf("\n 5 - Show average trips per weekend");
-        printf("\n 6 - Show the day(s) of the week that there were 0 trips");
-        printf("\n 7 - Show a comparison of trips between weekdays and weekends");
-        printf("\n 8 - Show the total number of trips in the month");
-        printf("\n 9 - Show the percentage of trips made on weekends");
-        printf("\n 10 - Show the day with the highest percentage of trips relative to the total");
-        printf("\n 11 - Save travel data to file");
-        printf("\n 12 - Print binary representation of total trips");
-        printf("\n Option: ");
+        printf("\nMenu:\n");
+        printf("1 - Show trips for each day\n"); // Option 1: Display the number of trips for each day of the week
+        printf("2 - Show the day(s) with the most trips\n");
+        // Option 2: Display the day(s) with the highest number of trips
+        printf("3 - Show the day(s) with the fewest trips\n");
+        // Option 3: Display the day(s) with the lowest number of trips
+        printf("4 - Show average trips per week\n");
+        // Option 4: Calculate and display the average number of trips per week
+        printf("5 - Show average trips per weekend\n");
+        // Option 5: Calculate and display the average number of trips per weekend
+        printf("6 - Show days with zero trips\n"); // Option 6: Display the day(s) with zero trips
+        printf("7 - Compare weekday and weekend trips\n");
+        // Option 7: Compare the total number of trips on weekdays vs weekends
+        printf("Option: ");
         scanf("%d", &option);
 
         if (option == 1) {
+            // Display the number of trips for each day of the week
             for (int i = 0; i < 7; i++) {
                 printf("%s: %d trips\n", weekDays[i], travelDay[i]);
             }
         } else if (option == 2) {
+            // Display the day(s) with the highest number of trips
             int maxTrips = travelDay[0];
             for (int i = 1; i < 7; i++) {
                 if (travelDay[i] > maxTrips) {
                     maxTrips = travelDay[i];
                 }
             }
-            printf("The day(s) with the most trips was: ");
+            printf("The day(s) with the most trips: ");
             for (int i = 0; i < 7; i++) {
                 if (travelDay[i] == maxTrips) {
                     printf("%s ", weekDays[i]);
@@ -96,13 +84,14 @@ int main() {
             }
             printf("\n");
         } else if (option == 3) {
+            // Display the day(s) with the lowest number of trips
             int minTrips = travelDay[0];
             for (int i = 1; i < 7; i++) {
                 if (travelDay[i] < minTrips) {
                     minTrips = travelDay[i];
                 }
             }
-            printf("The day(s) with the fewest trips was: ");
+            printf("The day(s) with the fewest trips: ");
             for (int i = 0; i < 7; i++) {
                 if (travelDay[i] == minTrips) {
                     printf("%s ", weekDays[i]);
@@ -110,19 +99,19 @@ int main() {
             }
             printf("\n");
         } else if (option == 4) {
+            // Calculate and display the average number of trips per week
             float totalTrips = 0;
             for (int i = 0; i < 7; i++) {
                 totalTrips += travelDay[i];
             }
             printf("Average trips per week: %.2f\n", totalTrips / 7);
         } else if (option == 5) {
-            float weekendTrips = 0;
-            for (int i = 5; i < 7; i++) {
-                weekendTrips += travelDay[i];
-            }
+            // Calculate and display the average number of trips per weekend
+            float weekendTrips = travelDay[5] + travelDay[6];
             printf("Average trips per weekend: %.2f\n", weekendTrips / 2);
         } else if (option == 6) {
-            printf("The day(s) with zero trips were: ");
+            // Display the day(s) with zero trips
+            printf("The day(s) with zero trips: ");
             for (int i = 0; i < 7; i++) {
                 if (travelDay[i] == 0) {
                     printf("%s ", weekDays[i]);
@@ -130,65 +119,19 @@ int main() {
             }
             printf("\n");
         } else if (option == 7) {
-            int weekdaysTrips = 0;
-            int weekendsTrips = 0;
-            for (int i = 0; i < 5; i++) {
-                weekdaysTrips += travelDay[i];
-            }
-            for (int i = 5; i < 7; i++) {
-                weekendsTrips += travelDay[i];
-            }
-            printf("Weekday trips: %d\n", weekdaysTrips);
-            printf("Weekend trips: %d\n", weekendsTrips);
-        } else if (option == 8) {
-            int totalTrips = 0;
-            for (int i = 0; i < 7; i++) {
-                totalTrips += travelDay[i];
-            }
-            printf("Total number of trips in the month: %d\n", totalTrips * 4); // Assuming 4 weeks in a month
-        } else if (option == 9) {
-            int weekendTrips = 0;
-            int totalTrips = 0;
-            for (int i = 0; i < 7; i++) {
-                totalTrips += travelDay[i];
-                if (i >= 5) {
-                    weekendTrips += travelDay[i];
-                }
-            }
-            printf("Percentage of trips made on weekends: %.2f%%\n", (weekendTrips / (float)totalTrips) * 100);
-        } else if (option == 10) {
-            int totalTrips = 0;
-            for (int i = 0; i < 7; i++) {
-                totalTrips += travelDay[i];
-            }
-            float maxPercentage = 0;
-            int maxDay = 0;
-            for (int i = 0; i < 7; i++) {
-                float percentage = (travelDay[i] / (float)totalTrips) * 100;
-                if (percentage > maxPercentage) {
-                    maxPercentage = percentage;
-                    maxDay = i;
-                }
-            }
-            printf("The day with the highest percentage of trips relative to the total is %s with %.2f%% of the trips.\n", weekDays[maxDay], maxPercentage);
-        } else if (option == 11) {
-            writeTravelDataToFile("travel_data.txt", travelDay);
-            printf("Travel data saved to file.\n");
-        } else if (option == 12) {
-            int totalTrips = 0;
-            for (int i = 0; i < 7; i++) {
-                totalTrips += travelDay[i];
-            }
-            printf("Binary representation of total trips: ");
-            printBinary(totalTrips);
+            // Compare the total number of trips on weekdays vs weekends
+            int weekdayTrips = 0, weekendTrips = 0;
+            for (int i = 0; i < 5; i++) weekdayTrips += travelDay[i];
+            for (int i = 5; i < 7; i++) weekendTrips += travelDay[i];
+            printf("Weekday trips: %d, Weekend trips: %d\n", weekdayTrips, weekendTrips);
+        } else {
+            printf("Invalid option.\n");
         }
 
-        printf("\n Want to see another option? (S/N): ");
+        printf("\nWant to see another option? (S/N): ");
         while ((getchar()) != '\n') {} // Clear input buffer
         scanf("%c", &resp);
     } while (toupper(resp) == 'S');
-
-    system("cls"); // Clears the screen
 
     return 0;
 }

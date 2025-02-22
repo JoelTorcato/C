@@ -18,7 +18,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="new commit" />
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="new commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DECEMBER/10 DEC/Final project.c" beforeDir="false" afterPath="$PROJECT_DIR$/DECEMBER/10 DEC/Final project.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JoelTorcato/C.git&quot;,
-    &quot;accountId&quot;: &quot;3c084b6b-be58-4ad3-a632-e66da22723d7&quot;
+    &quot;accountId&quot;: &quot;d8708642-4080-47ec-9588-c2d1806e3ad8&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -89,6 +92,7 @@
     &quot;C/C++ File.Exercise five.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.Exercise four.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.Exercise two.c.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Final project.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.NEW LIBRARY.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.array.c.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.example.c.executor&quot;: &quot;Run&quot;,
@@ -117,7 +121,7 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JoelFernandes/Downloads/C/NOVEMBER/22 NOV/final project.c&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JoelFernandes/CLionProjects/C/DECEMBER/10 DEC/Final project.c&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -131,6 +135,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JoelFernandes\CLionProjects\C\DECEMBER\10 DEC" />
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\ARRAY" />
       <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\EXERCISES" />
     </key>
@@ -142,21 +147,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="C/C++ File.final project.c">
+  <component name="RunManager" selected="C/C++ File.Final project.c">
     <configuration name="All Tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="final project.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="final project.c" CONFIG_NAME="final project.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\Downloads\C\NOVEMBER\22 NOV\final project.c" />
+    <configuration name="Final project.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="Final project.c" CONFIG_NAME="Final project.c">
+      <option name="sourceFile" value="C:\Users\JoelFernandes\CLionProjects\C\DECEMBER\10 DEC\Final project.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.final project.c" />
+      <item itemvalue="C/C++ File.Final project.c" />
       <item itemvalue="Catch.All Tests" />
     </list>
   </component>
@@ -222,6 +227,10 @@
       <workItem from="1733828546090" duration="889000" />
       <workItem from="1733830617501" duration="92000" />
       <workItem from="1733830722264" duration="2966000" />
+      <workItem from="1740129613844" duration="613000" />
+      <workItem from="1740133995094" duration="418000" />
+      <workItem from="1740242372677" duration="134000" />
+      <workItem from="1740242535745" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
