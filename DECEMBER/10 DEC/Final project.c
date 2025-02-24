@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <ctype.h>
+#include <string.h>
 
 // Function to get user input for the number of trips per day
 void getTravelData(char *weekDays[], int travelDay[]) {
@@ -23,19 +24,23 @@ void writeTravelDataToFile(const char *filename, int travelDay[]) {
         fprintf(file, "%d\n", travelDay[i]);
     }
     fclose(file);
-    printf("Travel data saved to %s\n", filename);
+    printf("\nTravel data saved to %s\n", filename);
 }
 
-// Function to print binary representation of an integer
-void printBinary(int total_trips) {
-    if (total_trips > 1) {
-        printBinary(total_trips / 2);
+// Function to print hexadecimal representation of a concatenated integer
+void printHexadecimal(int travelDay[]) {
+    char concatenatedTrips[64] = {0}; // Array to store concatenated trips as a string
+    for (int i = 0; i < 7; i++) {
+        char buffer[10];
+        sprintf(buffer, "%d", travelDay[i]); // Convert each trip count to string
+        strcat(concatenatedTrips, buffer); // Concatenate the string
     }
-    printf("%d", total_trips % 2);
+    long long totalTrips = atoll(concatenatedTrips); // Convert concatenated string to a long long integer
+    printf("%llX", totalTrips); // Print the hexadecimal string
 }
 
 int main() {
-    setlocale(LC_ALL, "Portuguese_Portugal"); // Portuguese language
+    setlocale(LC_ALL, "Portuguese_Portugal"); // Set locale to Portuguese
 
     char *weekDays[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     int travelDay[7] = {0};
@@ -44,7 +49,7 @@ int main() {
 
     // Get user input and save to file
     getTravelData(weekDays, travelDay);
-    writeTravelDataToFile("travel_data.txt", travelDay);
+    writeTravelDataToFile("DECEMBER/10 DEC/travel_data.txt", travelDay);
 
     do {
         printf("\nMenu:\n");
@@ -60,7 +65,9 @@ int main() {
         printf("6 - Show days with zero trips\n"); // Option 6: Display the day(s) with zero trips
         printf("7 - Compare weekday and weekend trips\n");
         // Option 7: Compare the total number of trips on weekdays vs weekends
-        printf("Option: ");
+        printf("8 - Transform total trips to hexadecimal code\n");
+        // Option 8: Transform total trips to hexadecimal code
+        printf("\nOption: ");
         scanf("%d", &option);
 
         if (option == 1) {
@@ -124,6 +131,11 @@ int main() {
             for (int i = 0; i < 5; i++) weekdayTrips += travelDay[i];
             for (int i = 5; i < 7; i++) weekendTrips += travelDay[i];
             printf("Weekday trips: %d, Weekend trips: %d\n", weekdayTrips, weekendTrips);
+        } else if (option == 8) {
+            // Transform total trips to hexadecimal code
+            printf("Hexadecimal representation of total trips: ");
+            printHexadecimal(travelDay);
+            printf("\n");
         } else {
             printf("Invalid option.\n");
         }
