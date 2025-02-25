@@ -145,5 +145,7 @@ int main() {
         scanf("%c", &resp);
     } while (toupper(resp) == 'S');
 
+    // GitHub copilot helped us organize the project and with some functions.
+
     return 0;
 }

@@ -18,13 +18,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I was finishing the final project.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DECEMBER/10 DEC/Final project.c" beforeDir="false" afterPath="$PROJECT_DIR$/DECEMBER/10 DEC/Final project.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DECEMBER/10 DEC/Final project.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DECEMBER/10 DEC/travel_data.txt" beforeDir="false" />
+    <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I finished my final programming project.">
       <change beforePath="$PROJECT_DIR$/Final project.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_data.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +234,7 @@
       <workItem from="1740252404340" duration="301000" />
       <workItem from="1740252736185" duration="291000" />
       <workItem from="1740416830790" duration="457000" />
-      <workItem from="1740417323329" duration="3334000" />
+      <workItem from="1740417323329" duration="3742000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -465,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740246756829</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="I finished my final programming project.">
+      <option name="closed" value="true" />
+      <created>1740420775732</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1740420775732</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +524,8 @@
     <MESSAGE value="Corrections to Exercise five (Clean Code).c" />
     <MESSAGE value="new commit" />
     <MESSAGE value="I was finishing the final project." />
-    <option name="LAST_COMMIT_MESSAGE" value="I was finishing the final project." />
+    <MESSAGE value="I finished my final programming project." />
+    <option name="LAST_COMMIT_MESSAGE" value="I finished my final programming project." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
