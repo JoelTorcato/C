@@ -4,9 +4,9 @@ int main() {
     int n[10];
     int i;
 
-    printf("insira 10 numeros inteiros:\n");
+    printf("Enter 10 integer numbers:\n");
     for (i = 0; i < 10; i++) {
-        printf("numeros %d: ", i + 1);
+        printf("Number %d: ", i + 1);
         scanf("%d", &n[i]);
     }
 
@@ -16,7 +16,7 @@ int main() {
         }
     }
 
-    printf("\nvetor com negativos substituidos por zero: ");
+    printf("\nArray with negative numbers replaced by zero: ");
     for (i = 0; i < 10; i++) {
         printf("%d ", n[i]);
     }

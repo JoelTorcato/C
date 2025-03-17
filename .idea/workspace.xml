@@ -19,7 +19,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10241c94-95d6-4d40-9d84-87c6396279e7" name="Changes" comment="I finished my final programming project.">
-      <change beforePath="$PROJECT_DIR$/Final project.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_02_2025_17_52_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DECEMBER/10 DEC/Final project.c" beforeDir="false" afterPath="$PROJECT_DIR$/DECEMBER/10 DEC/Final project.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCTOBER/14 OCT/ARRAY/first array.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/October/14 October/Array/First array/First array.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCTOBER/14 OCT/ARRAY/second array.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/October/14 October/Array/Second array/Second array.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/example.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/October/14 October/Exercises/Example/Example.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise five.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/October/14 October/Exercises/Exercise five/exercise five.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise four.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/October/14 October/Exercises/Exercise four/Exercise four.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise one.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/October/14 October/Exercises/Exercise one/Exercise one.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise three.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/October/14 October/Exercises/Exercise three/Exercise three.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCTOBER/14 OCT/EXERCISES/exercise two.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/October/14 October/Exercises/Exercise two/Exercise two.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEPTEMBER/23 SEP/NEW LIBRARY/NEW LIBRARY.c" beforeDir="false" afterPath="$PROJECT_DIR$/2024/September/23 September/New library/New library.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,59 +95,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.Exercice one.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Exercise five (Clean Code).c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Exercise five.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Exercise four.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Exercise two.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Final project.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.NEW LIBRARY.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.example.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise 4.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise 6.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise five.c (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise five.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise four.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise one.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise seven.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise six.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise three.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.exercise two.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.final project.c (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.final project.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.first array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.second array.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.test string.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.thrid.c.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JoelFernandes/CLionProjects/C/DECEMBER/10 DEC/Final project.c&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;service.view.auto.scroll.from.source&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.Exercice one.c.executor": "Run",
+    "C/C++ File.Exercise five (Clean Code).c.executor": "Run",
+    "C/C++ File.Exercise five.c.executor": "Run",
+    "C/C++ File.Exercise four.c.executor": "Run",
+    "C/C++ File.Exercise two.c.executor": "Run",
+    "C/C++ File.Final project.c.executor": "Run",
+    "C/C++ File.NEW LIBRARY.c.executor": "Run",
+    "C/C++ File.array.c.executor": "Run",
+    "C/C++ File.example.c.executor": "Run",
+    "C/C++ File.exercise 4.c.executor": "Run",
+    "C/C++ File.exercise 6.c.executor": "Run",
+    "C/C++ File.exercise five.c (1).executor": "Run",
+    "C/C++ File.exercise five.c.executor": "Run",
+    "C/C++ File.exercise four.c.executor": "Run",
+    "C/C++ File.exercise one.c.executor": "Run",
+    "C/C++ File.exercise seven.c.executor": "Run",
+    "C/C++ File.exercise six.c.executor": "Run",
+    "C/C++ File.exercise three.c.executor": "Run",
+    "C/C++ File.exercise two.c.executor": "Run",
+    "C/C++ File.final project.c (1).executor": "Run",
+    "C/C++ File.final project.c.executor": "Run",
+    "C/C++ File.first array.c.executor": "Run",
+    "C/C++ File.second array.c.executor": "Run",
+    "C/C++ File.test string.c.executor": "Run",
+    "C/C++ File.thrid.c.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/JoelFernandes/CLionProjects/C/DECEMBER/10 DEC/Final project.c",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "service.view.auto.scroll.from.source": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JoelFernandes\CLionProjects\C\DECEMBER\10 DEC" />
-      <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\ARRAY" />
-      <recent name="C:\Users\JoelFernandes\Downloads\CLION\OCTOBER\14 OCT\EXERCISES" />
+      <recent name="C:\Users\JoelFernandes\CLionProjects\C\2024\October\14 October\Exercises\Exercise five" />
+      <recent name="C:\Users\JoelFernandes\CLionProjects\C\2024\October\14 October\Exercises\Exercise four" />
+      <recent name="C:\Users\JoelFernandes\CLionProjects\C\2024\October\14 October\Exercises\Exercise three" />
+      <recent name="C:\Users\JoelFernandes\CLionProjects\C\2024\October\14 October\Exercises\Exercise two" />
+      <recent name="C:\Users\JoelFernandes\CLionProjects\C\2024\October\14 October\Exercises\Exercise one" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,23 +160,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="C/C++ File.Final project.c">
+  <component name="RunManager">
     <configuration name="All Tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Final project.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="Final project.c" CONFIG_NAME="Final project.c">
-      <option name="sourceFile" value="C:\Users\JoelFernandes\CLionProjects\C\DECEMBER\10 DEC\Final project.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="C/C++ File.Final project.c" />
-      <item itemvalue="Catch.All Tests" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -235,6 +239,15 @@
       <workItem from="1740252736185" duration="291000" />
       <workItem from="1740416830790" duration="457000" />
       <workItem from="1740417323329" duration="3742000" />
+      <workItem from="1740485543157" duration="850000" />
+      <workItem from="1740925130024" duration="13000" />
+      <workItem from="1740925562547" duration="298000" />
+      <workItem from="1741086327328" duration="2146000" />
+      <workItem from="1741362009316" duration="15000" />
+      <workItem from="1741590780832" duration="1040000" />
+      <workItem from="1741626803115" duration="14000" />
+      <workItem from="1741630219421" duration="1327000" />
+      <workItem from="1742232481416" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <option name="closed" value="true" />
@@ -468,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740420775732</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="I finished my final programming project.">
+      <option name="closed" value="true" />
+      <created>1740485754768</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1740485754768</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

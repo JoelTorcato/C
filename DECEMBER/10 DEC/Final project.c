@@ -53,7 +53,8 @@ int main() {
 
     do {
         printf("\nMenu:\n");
-        printf("1 - Show trips for each day\n"); // Option 1: Display the number of trips for each day of the week
+        printf("1 - Show trips for each day\n");
+        // Option 1: Display the number of trips for each day of the week
         printf("2 - Show the day(s) with the most trips\n");
         // Option 2: Display the day(s) with the highest number of trips
         printf("3 - Show the day(s) with the fewest trips\n");
